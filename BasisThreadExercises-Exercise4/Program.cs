@@ -27,6 +27,9 @@
 
             input.Start();
             output.Start();
+
+            input.Join();
+            output.Join();
         }
     }
 }
